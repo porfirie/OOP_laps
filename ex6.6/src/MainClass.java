@@ -11,7 +11,7 @@ public class MainClass {
 		
 		
 		
-			 nrTotal = nrTotal.multiply(BigInteger.valueOf(2).pow(nr_casute-1));
+			 nrTotal = nrTotal.multiply(BigInteger.valueOf(2).pow(nr_casute));
 		 
 		
 		System.out.println("Nr de boabe de orez pe ultima casuta este "+ nrTotal);
