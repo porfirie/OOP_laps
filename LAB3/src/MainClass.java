@@ -85,15 +85,15 @@ public class MainClass {
 	
 	public static void main(String[] args) {
 	//ex2();
-	//ex1(10,20);
+	ex1(4,10);
 		//consoane("masina");
 		
-		String st1="ana are ";
-		String st2="mere";
-		String st3="ana are mere";
-		System.out.println(st1+st2);
-		System.out.println(st1+st2==st3);
-		System.out.println((st1+st2).equals(st3));
+		//String st1="ana are ";
+		//String st2="mere";
+		//String st3="ana are mere";
+		//System.out.println(st1+st2);
+		//System.out.println(st1+st2==st3);
+	//	System.out.println((st1+st2).equals(st3));
 	}
 	
 }
