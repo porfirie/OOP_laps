@@ -1,6 +1,8 @@
 import java.awt.Color;
 
 public class Autovehicul {
+	
+private Sofer driver;	
 private String marca;
 private Color culoare;
 private int treaptaDeViteza;
@@ -13,6 +15,7 @@ public Autovehicul() {
 	
 }
 public Autovehicul(String marca,Color culoare,float vitezaMax,int treaptaMax) {
+	
 	this.marca = marca;
 	this.culoare = culoare;
 	this.vitezaMax = vitezaMax;
