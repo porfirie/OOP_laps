@@ -14,8 +14,8 @@ private float vitezaCurenta;
 public Autovehicul() {
 	
 }
-public Autovehicul(String marca,Color culoare,float vitezaMax,int treaptaMax) {
-	
+public Autovehicul(String marca,Color culoare,float vitezaMax,int treaptaMax,Sofer driver) {
+	this.driver=driver;
 	this.marca = marca;
 	this.culoare = culoare;
 	this.vitezaMax = vitezaMax;
@@ -75,6 +75,9 @@ public void oprire() {
 	 this.treaptaDeViteza=0;
  }
 
+public String getNumeSofer() {
+	return driver.getNume();	
+}
 public String toString() {
 	return "Marca este " +marca+ " are viteza curenta de "+vitezaCurenta+"km/h "+"si se afla in treapta "+treaptaDeViteza;
 }

@@ -5,7 +5,7 @@ private int varsta;
 private int nrPermis;
 
 public Sofer(String name,String prenume,int varsta,int nr_permis) {
-	        this.nume=nume;
+	        this.nume=name;
 			this.prenume=prenume;
 			this.varsta=varsta;
 			this.nrPermis=nr_permis;
